@@ -1,0 +1,136 @@
+.class1{
+    background-image: linear-gradient(   to right ,red, rgb(7, 248, 60), green ,yellow);
+    width: auto;
+    height: 20px;
+    text-align: center;
+    /* border: 5px solid red; */
+    /* background-image: linear-gradient(to right, red , yellow); */
+}
+b{
+    background-color: antiquewhite;
+    text-decoration: underline;
+}
+.class3{
+    background-color: aquamarine;
+    border: 5px solid red;
+    width: 60vw;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+ ul{
+    display: inline-block;
+    margin:0px 110px 0px 30px;
+    transform: translateX(50%);
+ }
+ .class5{
+     background-color: rgb(17, 120, 120);
+
+     border: 5px solid rgb(10, 52, 10);
+     border-radius: 10px;
+     width: 30vw;
+     height: 60px;
+ }
+ .class4{
+     background-color:aquamarine;
+     border: 2px solid rgb(129, 45, 39);
+     border-radius: 10px;
+     display: grid;
+     grid-template-columns: Auto Auto Auto ;
+     justify-self: center;
+     justify-items: center;
+     align-items: center;
+     align-self: center;
+
+   
+}
+
+.class6{
+ position: relative;
+ left: 500px;
+
+ }
+ .class7{
+     background-image: linear-gradient(to left ,red ,yellow,red);
+     font-weight: bold;
+     font-size: 18px;
+     text-align: center;
+     height: 40px;
+ }
+ .class8{
+     background-image:radial-gradient(rgb(222, 222, 38),rgb(24, 158, 24),rgb(107, 216, 246));
+     height: 250px;
+     border: 2px solid rgb(51, 198, 51);
+     display: flex;
+     justify-content:space-evenly;
+     
+ }
+ .class9{
+     background-color: rgb(217, 217, 38);
+     border: 3px solid rgb(237, 56, 24);
+     width: 200px;
+     height: 100px;
+     border-radius: 10px;
+     text-align: center;
+     text-decoration: underline;
+     font-weight: bold;
+     color: rgb(235, 19, 19);
+     margin: auto;
+ }
+ .class10{
+     font-size: 30px;
+     border: 2px solid rgb(56, 13, 13);
+     color: white;
+     display: grid;
+     height: 400px;
+     grid-template-columns: 0.3fr 0.3fr 0.3fr 0.1fr;
+     grid-template-rows: 0.2fr 0.3fr 0.4fr 0.1fr ;
+     column-gap: 10px;
+     row-gap: 10px;
+ }
+ .class11{
+     background-color:brown;
+     text-align: center;
+     font-weight: bold;
+     font-size: 20px;
+     grid-row-start: 1;
+     grid-row-end: 2;
+     grid-column-start: 1;
+     grid-column-end: 5;
+ }
+ .class12{
+     background-color: rgb(40, 243, 40);
+     text-align: center;
+ }
+ .class13{
+     background-color: rgb(24, 197, 209);
+ }
+.class14{
+    background-color: rgb(51, 51, 230);
+}
+.class15{
+    background-color: black;
+grid-row-start:2 ;
+grid-row-end: 4;
+grid-column-start: 4;
+grid-column-end: 5;
+font-size: 18px;
+}
+.class16{
+   background-color: rgb(228, 228, 56);
+   grid-row-start: 3;
+     grid-row-end: 4;
+     grid-column-start: 1;
+     grid-column-end: 4;
+}
+.class17{
+    background-color: coral;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
